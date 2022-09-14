@@ -9,12 +9,10 @@
   </v-app>
 </template>
 
-<script lang="ts">
+<script>
 import NavBar from "../components/NavBar.vue";
 
-import { defineComponent } from "vue";
-
-export default defineComponent({
+export default {
   name: "DefaultLayout",
   components: {
     NavBar,
@@ -22,5 +20,5 @@ export default defineComponent({
   data() {
     return {};
   },
-});
+};
 </script>

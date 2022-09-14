@@ -1,11 +1,13 @@
 <template>
   <section>
-    <h2>HELLO WORld!</h2>
+    <h2>Login Page</h2>
   </section>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  layout: "empty",
 };
 </script>
+
+<style lang="scss" scoped></style>
