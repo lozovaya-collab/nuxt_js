@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="item of info" :key="item.id">
-      <a @click.prevent="openUser(item.id)">{{ item.name }}</a>
+      <a @click.prevent="openUser(item.id)">{{ item.username }}</a>
     </li>
   </ul>
 </template>
@@ -23,4 +23,14 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+ul {
+  padding: 0;
+  margin-top: 15px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+</style>
